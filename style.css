@@ -1,0 +1,39 @@
+table tr:nth-child(even) {
+  background: #CCC
+}
+
+table tr:nth-child(odd) {
+  background-color: #FAFAFA;
+}
+
+table tbody tr.highlight, table tbody tr td.highlight {
+  background-color: #FFFFB9;
+}
+
+table th {
+  background-color: dimgray;
+  color: #FFF;
+}
+
+table tr td button {
+  cursor: pointer;
+}
+
+table tr td {
+  vertical-align: middle;
+}
+
+#delete-btn:hover, #delete-btn:active {
+  background-color: #dc3545;
+}
+
+#modify-btn:hover, #modify-btn:active {
+  background-color: #0d6efd;
+}
+
+#otherModal input[type="text"] {
+  width: 50%;
+  max-width: 200px;
+  min-width: 150px;
+}
+
